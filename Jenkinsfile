@@ -21,7 +21,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo "Testing.."
+                echo "Testing Edit.."
                 sh '''
                 cd myapp
 		source ./venv/bin/activate
