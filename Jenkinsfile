@@ -13,7 +13,7 @@ pipeline {
                 echo "Building.."
                 sh '''
                 cd myapp
-                pip install --no-warn-script-location -r requirements.txt
+                pip install --user -r requirements.txt
                 '''
             }
         }
